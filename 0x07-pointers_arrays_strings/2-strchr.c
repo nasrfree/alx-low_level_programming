@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strchr
+ * _strchr Ent P
  * @s: i
  * @c: i
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
