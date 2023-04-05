@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * compare head and tail indices for match
+ * compare - compare head and tail indices for match
  * @head: index starting from left of string
  * @tail: index starting from right of string, moving backwards
  * Return: 1 if palindrome, 0 if not
@@ -19,7 +19,7 @@ int compare(char *head, char *tail)
 }
 
 /**
- * _strlen - length of string to access last index
+ * _strlen - find length of string to access last index
  * @s: string
  * Return: length
  */
@@ -34,7 +34,7 @@ int _strlen(char *s)
 }
 
 /**
- * is_palindrome - check  palindrome
+ * is_palindrome - check if palindrome
  * @s: string to check
  * Return: 1 if palindrome, 0 if not
  */
